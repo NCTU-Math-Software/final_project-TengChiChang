@@ -1,15 +1,15 @@
-# final_project-TengChiChang
-final_project-TengChiChang created by GitHub Classroom
+# project17.生成由中間往外給值由1到n平方生成的矩陣
 
-第17題
+1.生成由中間往外給值由1到n平方生成的矩陣
+-------
 
-1.
-
-nxn(n) 
+程式用法:nxn(n) n為正整數
 
 產生類似下面矩陣的nxn矩陣,下面為nxn(3)和nxn(2)
 
-simple input: nxn(3)
+sample input: nxn(3)
+
+sample output:
 
 7     8     9
 
@@ -17,7 +17,9 @@ simple input: nxn(3)
 
 5     4     3
 
-simple input: nxn(2)
+sample input: nxn(2)
+
+sample output:
 
 1     2
 
@@ -91,9 +93,10 @@ simple input: nxn(2)
 
 還有步驟三最後是補最下面的一排
 
-2.
+2.算出nxn(n)矩陣的正反對角線總合
+--------
 
-nxn2(n)
+執行方法:nxn2(n)  n為正整數
 
 算出上面矩陣斜對角線和對角線的總和
 
@@ -119,17 +122,16 @@ nxn2(n)
 
 接下來就利用這個規律得到對角數的總和
 
-3.
+3.將第一題的矩陣變成格子圖,並且將質數變成黑色, 非質數點位置設為白色
+------
 
-nxn3()
-
-
+執行方法:nxn3() 
 
 寫一個判斷質數的小function y=f(x)
 
 做法為暴力法,如果2到x-1沒有數可以整除他,那他就是質數
 
-這個程式就是列出第一個程式裡面20x20的矩陣
+這個程式就是列出第一個程式裡面200x200的矩陣
 
 然後分別判斷每一個值
 
