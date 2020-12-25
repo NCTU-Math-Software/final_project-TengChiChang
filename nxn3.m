@@ -1,5 +1,5 @@
-function nxn3()
-n=200;
+function nxn3(n)
+%n=200;
 A=zeros(n,n);
 k=2;                       %設定初始給值的方向
 num=4;                     %設定迴圈第一個給的數字是4
@@ -86,7 +86,7 @@ colormap(map);
 image(A)
 
 function y=f(x)
-for zz=2:x-1
+for zz=2:sqrt(x)
     if(mod(x,zz)==0)
         y=81;
         break;
